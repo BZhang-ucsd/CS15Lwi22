@@ -16,9 +16,11 @@ Step 2. Remotely Connecting
 First open terminal, you can access from the top left, terminal -> new terminal.
 
 Then command: ssh (youraccount)@ieng6.ucsd.edu
-For example mine is 
+For example mine is:
 - ssh cs15lwi22awn@ieng6.ucsd.edu
 - Type Yes when first time connect to the server.
+- Then you need to type the password you set for this course account (It won't show up, but don't worry).
+
 Then you should see this page, which means you have connected to the remote server.
 
 ![lab1 3](https://user-images.githubusercontent.com/97600878/149138744-647938a5-bc25-4256-ab72-c471031ab26d.png)
@@ -66,7 +68,7 @@ Now your terminal is connected to the server, you can try out some commands. For
   
   scp WhereAmI.java cs15lwi22awn@ieng6.ucsd.edu:~
   
-  then the terminal should prompt for password, type your password.(It won't show up, but don't worry)
+  then the terminal should prompt for password, type your password.
   
   ![lab1 5](https://user-images.githubusercontent.com/97600878/149144517-ca99b98d-e782-402f-afb2-291e70c79ca8.png)
   
