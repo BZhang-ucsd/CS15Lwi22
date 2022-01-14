@@ -1,17 +1,17 @@
-REMOTE ACCESS
+# REMOTE ACCESS
 
-Here is a tutorial on how to log into a cs 15l course-specific account on ieng6.
+***Here is a tutorial on how to log into a cs 15l course-specific account on ieng6.***
 
-Step 1. Download Visual Studio Code
+## Step 1. Download Visual Studio Code
 
 ![lab1 1](https://user-images.githubusercontent.com/97600878/149136487-f3ce64e3-9c35-4ff7-bc74-b65f3e28d578.png)
 Go to the Visual Studio Code website https://code.visualstudio.com, download and install.
 After you finished install, run Visual Studio Code, you should see this:
 ![lab1 2](https://user-images.githubusercontent.com/97600878/149136788-28b656f0-d425-4064-8740-f3ba68e86279.png)
 
-Step 2. Remotely Connecting
+## Step 2. Remotely Connecting
 
-- If you are using Windows, make should you set up OpenSSH first.
+>If you are using Windows, make should you set up OpenSSH first.
 
 First open terminal, you can access from the top left, terminal -> new terminal.
 
@@ -25,7 +25,7 @@ Then you should see this page, which means you have connected to the remote serv
 
 ![lab1 3](https://user-images.githubusercontent.com/97600878/149138744-647938a5-bc25-4256-ab72-c471031ab26d.png)
 
-Step 3. Run Some Commands
+## Step 3. Run Some Commands
 
 Now your terminal is connected to the server, you can try out some commands. For example:
 
@@ -40,7 +40,7 @@ Now your terminal is connected to the server, you can try out some commands. For
   
   ![lab1 4](https://user-images.githubusercontent.com/97600878/149139644-b44b6c46-bd23-457d-a437-3e381c75e5e3.png)
 
-  Step 4. Moving Files with scp
+  ## Step 4. Moving Files with scp
   
   The scp command can copy a file from your computer to the remote computer
   First, we create a file call WhereAmI.java to demonstrate how scp command work:
@@ -89,8 +89,8 @@ Now your terminal is connected to the server, you can try out some commands. For
   ![lab1 7](https://user-images.githubusercontent.com/97600878/149144995-a68e9737-873c-4335-bf62-b1231655c9fe.png)
   
   and we can tell that it runs correctly on the server by the information it shows.
-  
-  Step 5. Setting an SSH Key
+ 
+  ## Step 5. Setting an SSH Key
   
   We can use SSH key so we don't need to type password every time we run ssh and scp. 
   We can use this command to do so:
@@ -115,7 +115,7 @@ Now your terminal is connected to the server, you can try out some commands. For
   now you don't need to type password when you login the server with ssh and scp the file from your computer to the server.
   
   
-  Step 6. Optimizing Remote Running
+  ## Step 6. Optimizing Remote Running
   
   You can run command in remote server directly with "" with ssh command. For example,if you want to run ls command diretly on the server：
   
