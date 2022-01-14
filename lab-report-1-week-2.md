@@ -1,4 +1,4 @@
-# REMOTE ACCESS
+# Lab 1 REMOTE ACCESS
 
 ***Here is a tutorial on how to log into a cs 15l course-specific account on ieng6.***
 
@@ -129,7 +129,7 @@ Now your terminal is connected to the server, you can try out some commands. For
 
   All these are examples to optimize speed on remote server.
   
-
+End of Tutorial
   
   
   
