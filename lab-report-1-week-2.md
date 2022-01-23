@@ -127,6 +127,7 @@ Now your terminal is connected to the server, you can try out some commands. For
   - `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
   
  ![WeChat Screenshot_20220112071816](https://user-images.githubusercontent.com/97600878/149168375-e5517419-d287-41b5-b260-fcccfcf96ad1.png)
+  
   In here, we use the command  `ssh cs15lwi22awn@ieng6.ucsd.edu "ls"` to access the remote directory directly.
 
   All these are examples to optimize speed on remote server.
