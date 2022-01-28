@@ -130,11 +130,12 @@ Now your terminal is connected to the server, you can try out some commands. For
   
   In here, we use the command  `ssh cs15lwi22awn@ieng6.ucsd.edu "ls"` to access the remote directory directly.
   
-  ![WeChat Screenshot_20220127023513](https://user-images.githubusercontent.com/97600878/151342135-aa380a22-0ecf-4974-8dbc-85a602244914.png)
+![lab 1 regrade](https://user-images.githubusercontent.com/97600878/151520350-5cd5f0bd-c754-49c3-ae6a-7ccf9658aeef.png)
   
-  We can also run the file `WhereAmI.java` remotely directly from your desktop by using
+  We can also `scp` the file from your desktop to remote serever and run the file `WhereAmI.java` remotely directly from your desktop by using
   
-  `ssh cs15lwi22awn@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
+  - `scp WhereAmI.java cs15lwi22awn@ieng6.ucsd.edu:~ `
+  - `ssh cs15lwi22awn@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
   
 
   All these are examples to optimize speed on remote server.
