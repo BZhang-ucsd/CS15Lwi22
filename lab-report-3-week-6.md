@@ -7,7 +7,7 @@ Usually, When we log into ieng6 remote server from your laptop, we will type com
 
 However, we can have create a configuration file that shorten the command you have to type.
 
-###Step 1 Open the Configuration File
+###Open the Configuration File
 
 Use the command line to open the configuration file:
 '~/.ssh/config'
@@ -23,13 +23,20 @@ Host ieng6
     HostName ieng6.ucsd.edu
     User cs15lwi22zzz (use your username)
 ```
+You can change your preferred name after `Host`
+
 ![WeChat Screenshot_20220211004114](https://user-images.githubusercontent.com/97600878/153560985-19028e35-216c-4ddb-84e4-38b38291d5b0.png)
 Then save the file.
 
-##Step 2 Try SSH Command in Terminal
+###Try SSH Command in Terminal
 
 We can now connect to remote server using shorten command：
 `ssh ieng6`
 ![WeChat Screenshot_20220211004428](https://user-images.githubusercontent.com/97600878/153561358-8828ab6d-c5d4-4cc7-b8da-885727c06eeb.png)
-You should be able to connect to the ieng server without typing the course-specific username.
+With the ssh key (`id_rsa`) files we create in last tutorial, You should be able to connect to the ieng server without typing the course-specific username and password.
+
+You can also use `scp` comman using the shorten named that you set to copy file much faster with shorten command.
+
+![WeChat Screenshot_20220211005613](https://user-images.githubusercontent.com/97600878/153563155-61c0ab6a-30be-4330-b063-ed5cc3106b88.png)
+
 
