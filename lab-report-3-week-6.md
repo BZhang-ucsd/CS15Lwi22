@@ -1,4 +1,4 @@
-# Lab Report 2
+# Lab Report 3
 ## Streamlining ssh Configuration
 
 Usually, When we log into ieng6 remote server from your laptop, we will type command line like this:
