@@ -7,7 +7,7 @@ Usually, When we log into ieng6 remote server from your laptop, we will type com
 
 However, we can have create a configuration file that shorten the command you have to type.
 
-###Open the Configuration File
+### Open the Configuration File
 
 Use the command line to open the configuration file:
 '~/.ssh/config'
@@ -28,7 +28,7 @@ You can change your preferred name after `Host`
 ![WeChat Screenshot_20220211004114](https://user-images.githubusercontent.com/97600878/153560985-19028e35-216c-4ddb-84e4-38b38291d5b0.png)
 Then save the file.
 
-###Try SSH Command in Terminal
+### Try SSH Command in Terminal
 
 We can now connect to remote server using shorten command：
 `ssh ieng6`
