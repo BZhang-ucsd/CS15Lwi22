@@ -18,7 +18,7 @@ We will be testing on these three markdown snippet:
 
 [`code]`](ucsd.edu)
 ```
-From VScode preview, this should produce: `[`google.com,google.com,ucsd.edu]`
+From VScode preview, this should produce: `` [`google.com,google.com,ucsd.edu] ``
 
 ![WeChat Screenshot_20220225143015](https://user-images.githubusercontent.com/97600878/155811849-a3cfdaf4-1826-45c5-9d0e-1d69c3c45e84.png)
 
