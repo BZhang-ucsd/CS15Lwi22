@@ -156,5 +156,5 @@ In the Review Implemetation:
 ![WeChat Screenshot_20220225160337](https://user-images.githubusercontent.com/97600878/155819174-952fe2b9-9a87-42ec-be57-d59377a283b6.png)
 
 #### Fix
-
-
+To fix this issue, we can create a if statement which if Next Open Braket comes before the close parentheses, we update the currentIndex and skip the broken link without
+close parentheses.
