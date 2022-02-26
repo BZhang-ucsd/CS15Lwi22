@@ -2,9 +2,9 @@
 
 ## We will be looking at two different implementation of markdown-parse in this report.
 
-Here is the link for my own markdown-parse repository: https://github.com/BZhang-ucsd/markdown-parse
+Link for my own markdown-parse repository: https://github.com/BZhang-ucsd/markdown-parse
 
-Here is the link for the markdown-parse repository that I reviewd: https://github.com/nseyoum/CSE15L-Platypus
+Link for the markdown-parse repository that I reviewd: https://github.com/nseyoum/CSE15L-Platypus
 
 We will be testing on these three markdown snippet:
 
