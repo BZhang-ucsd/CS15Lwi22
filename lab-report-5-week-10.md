@@ -49,7 +49,7 @@ Let's look at my implementation first:
 
 ![WeChat Screenshot_20220311055617](https://user-images.githubusercontent.com/97600878/157881384-4d08f783-84b7-4b9c-9d5e-95727a4b1e21.png)
 
-For the first part of **printing the invalid link** , as we can see, my implementation does not check if there is any space in between the close braket.
+For the first part of **printing the invalid link** , as we can see, my implementation does not check if there is any space in between the parentheses, which lead to priting the invalid link.
 - Fix:
 One way to fix it is that we can add a `spaceIndicator = '  ';`  in the instance variables. Then inside the while loop, we use indexOf to find the index of the space after the open parentheses.
 If the index of space apear inbetween the open and close parentheses, we ignore the content inside the parentheses, treated as a invalid link.
@@ -62,4 +62,22 @@ In this case, we also need an `if` statement that search the whole md file, whic
 to assign the same link after the colon to them.(In this test file, in every apearance of `[foo]` reprensents `/url1` ) 
 
 ### For test-file 573
-For this test file, the lab 9 implementation is incorrect
+For this test file, the lab 9 implementation is incorrect.
+
+The symptom of the bug is it printed `/url`, which is inside the image name that is not suppose to print out
+
+Let's Look at the lab 9 implementation:
+
+![WeChat Screenshot_20220311065739](https://user-images.githubusercontent.com/97600878/157892032-55464f13-5d96-46a3-8918-92684b866ae0.png)
+
+As we can see, this implementation does not have a checker for image to determine whether it is an image or a link.
+or a link.
+
+- Fix:
+One way to fix it is where in my implementation, I have a `imageIndicator = "!";` to determine if it is an image. If there is a `!` before the open bracket, we find the next close braket with open parentheses, and treat the content inside the bracket as image file name. We can use the similar process in lab 9 implementation to avoiding printing image as a link which is invalid. 
+
+- Additional to that, we can also also consider the case when image turn into hyper link. In this case, we need to implement conditional statement using the index of each symbol that if there is an image inside bracket that follows by a valid link inside a parentheses, we will treat the link as a valid link as well.
+
+#### This will be all the content for my Lab Report 5. Thanks for watching.
+
+
