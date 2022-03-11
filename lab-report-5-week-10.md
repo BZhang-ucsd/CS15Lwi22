@@ -1,4 +1,4 @@
-# Lab Report 6
+# Lab Report 5
 In this lab report, we will be looking at the difference of my own implementation and lab 9 implementation of `MarkDownParse.java`
 
 We will be looking at two of the test files specficially.
@@ -76,7 +76,7 @@ or a link.
 - Fix:
 One way to fix it is where in my implementation, I have a `imageIndicator = "!";` to determine if it is an image. If there is a `!` before the open bracket, we find the next close braket with open parentheses, and treat the content inside the bracket as image file name. We can use the similar process in lab 9 implementation to avoiding printing image as a link which is invalid. 
 
-- Additional to that, we can also also consider the case when image turn into hyper link. In this case, we need to implement conditional statement using the index of each symbol that if there is an image inside bracket that follows by a valid link inside a parentheses, we will treat the link as a valid link as well.
+- Additional to that, we can also also consider the case when image turn into hyperlink. In this case, we need to implement conditional statement using the index of each symbol that if there is an image inside bracket that follows by a valid link inside a parentheses, we will treat the link as a valid link as well.
 
 #### This will be all the content for my Lab Report 5. Thanks for watching.
 
