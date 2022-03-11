@@ -26,14 +26,22 @@ This allows you to visualize the test case result of each implementation side by
 
 We will be selecting two of the tests to discuss the reason of their different result.
 In this case:
-- In `test-case/567`, Lab 9 implementation prints out empty bracket, where My Implementation prints out `[not a link]` which is not suppose to printed
+- In `test-case/567`, Lab 9 implementation prints out empty bracket`[]`, where My Implementation prints out `[not a link]` which is not suppose to printed.
+
 From visual studio preview, we can tell that the only valid link shoule be `/url1`, so both implementation is incorrect.
 ![WeChat Screenshot_20220311052243](https://user-images.githubusercontent.com/97600878/157875077-5301ef80-32ee-497b-bc93-c23bbe9153c8.png)
 
 
-- In `test-case/573`, Lab 9 implementation prints out [/url], where My Implementation prints out empty bracket.
+- In `test-case/573`, Lab 9 implementation prints out `[/url]`, where My Implementation prints out empty bracket `[]`.
+
 From visual studio preview, we can tell that there is no valid link, so nothing should be printed. Lab 9 implementation is incorrect.
 
 ![WeChat Screenshot_20220311052613](https://user-images.githubusercontent.com/97600878/157876795-ee7e7c99-0caf-4b70-a5a2-c96606bac778.png)
+
+## Fixing
+- For test case 567
+Since Both implementation is incorrect, I will be focus on my implementation:
+The symptom of the bug is printed out `[not a link]` which are not suppose to print and it does not print out the valid link `[/url]`
+
 
 
